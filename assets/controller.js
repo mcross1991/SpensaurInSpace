@@ -188,6 +188,7 @@
                     enemys.splice(x, 1);
                     lasers.splice(y, 1);
                     playerScore += 10;
+                    return;
                 }
             }
         }
