@@ -1,0 +1,29 @@
+
+@keyframes side-scrolling-bg-animation-frames {
+    from {
+        background-position: 0px 0px;
+    }
+    to {
+        background-position: -1536px 0px;
+    }
+}
+
+.side-scrolling-bg-animation {
+    animation-name: side-scrolling-bg-animation-frames;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.side-scrolling-bg {
+    width: 640px;
+    height: 480px;
+    background-image: url("full_background.png");
+    background-repeat: repeat-x;
+    background-size: 1536px 460px;
+}
+
+.hidden {
+    display: none;
+}
+
